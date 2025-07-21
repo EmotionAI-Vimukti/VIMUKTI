@@ -1,0 +1,86 @@
+{
+  "Basic API Health": {
+    "success": true,
+    "details": "API responding correctly: Vimukti - Mental Wellness Platform API",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.241769"
+  },
+  "Google OAuth Login Redirect": {
+    "success": true,
+    "details": "Correctly redirects to Google OAuth: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=464578839343-a29j2gmlul4d6...",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.395912"
+  },
+  "Google OAuth Callback URL": {
+    "success": false,
+    "details": "Redirect URI not properly configured",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.395933"
+  },
+  "Profile Security (No Token)": {
+    "success": true,
+    "details": "Correctly rejects requests without authentication token",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.419182"
+  },
+  "Chat Security (No Token)": {
+    "success": true,
+    "details": "Correctly rejects chat requests without authentication token",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.437672"
+  },
+  "Chat Sessions Security (No Token)": {
+    "success": true,
+    "details": "Correctly rejects session requests without authentication token",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.458603"
+  },
+  "Mistral API Key Check": {
+    "success": true,
+    "details": "Authentication properly required before Mistral API access",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.484766"
+  },
+  "Create Session Security (No Token)": {
+    "success": true,
+    "details": "Correctly rejects session creation without authentication token",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.508187"
+  },
+  "API Structure - / without /api": {
+    "success": false,
+    "details": "Endpoint accessible without /api prefix: 200",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.533872"
+  },
+  "API Structure - /login/google without /api": {
+    "success": false,
+    "details": "Endpoint accessible without /api prefix: 200",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.556876"
+  },
+  "API Structure - /auth/google without /api": {
+    "success": false,
+    "details": "Endpoint accessible without /api prefix: 200",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.582988"
+  },
+  "API Structure - /auth/profile without /api": {
+    "success": false,
+    "details": "Endpoint accessible without /api prefix: 200",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.605020"
+  },
+  "API Structure - /chat without /api": {
+    "success": false,
+    "details": "Endpoint accessible without /api prefix: 200",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.629328"
+  },
+  "API Structure - /chat/sessions without /api": {
+    "success": false,
+    "details": "Endpoint accessible without /api prefix: 200",
+    "response_data": null,
+    "timestamp": "2025-07-21T18:14:29.651617"
+  }
+}
