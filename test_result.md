@@ -237,12 +237,12 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Mistral LLM Integration"
-    - "Google OAuth Authentication"
-    - "AI Chat Interface"
+    - "Landing Page Design"
     - "Authentication Flow"
+    - "AI Chat Interface"
+    - "UI/UX Design System"
   stuck_tasks: []
-  test_all: true
+  test_all: false
   test_priority: "high_first"
 
 agent_communication:
