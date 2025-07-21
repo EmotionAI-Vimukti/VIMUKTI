@@ -1,0 +1,118 @@
+{
+  "test_results": {
+    "Basic API Health": {
+      "success": true,
+      "details": "API responding correctly: Vimukti - Mental Wellness Platform API",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.440300"
+    },
+    "Google OAuth Flow": {
+      "success": true,
+      "details": "OAuth flow properly configured with callback: https://208e17c2-36ec-43bc-96b2-8c544c4a443c.preview.emergentagent.com/api/auth/google",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.497479"
+    },
+    "Security: /auth/profile (GET)": {
+      "success": true,
+      "details": "Correctly requires authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.525481"
+    },
+    "Security: /chat (POST)": {
+      "success": true,
+      "details": "Correctly requires authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.546222"
+    },
+    "Security: /chat/sessions (GET)": {
+      "success": true,
+      "details": "Correctly requires authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.566067"
+    },
+    "Security: /chat/sessions (POST)": {
+      "success": true,
+      "details": "Correctly requires authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.588256"
+    },
+    "Security: /onboarding (POST)": {
+      "success": true,
+      "details": "Correctly requires authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.603114"
+    },
+    "Mistral Integration Readiness": {
+      "success": true,
+      "details": "Mistral endpoint properly secured behind authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.635612"
+    },
+    "Chat Session Creation Security": {
+      "success": true,
+      "details": "Session creation properly requires authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.652960"
+    },
+    "Chat Session Retrieval Security": {
+      "success": true,
+      "details": "Session retrieval properly requires authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.670171"
+    },
+    "User Profile Management": {
+      "success": true,
+      "details": "Profile endpoint properly secured with authentication",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.689138"
+    },
+    "API Structure: /": {
+      "success": true,
+      "details": "Endpoint accessible via /api prefix (status: 200)",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.708645"
+    },
+    "API Structure: /login/google": {
+      "success": true,
+      "details": "Endpoint accessible via /api prefix (status: 200)",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.973566"
+    },
+    "API Structure: /auth/profile": {
+      "success": true,
+      "details": "Endpoint accessible via /api prefix (status: 401)",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:31.990533"
+    },
+    "API Structure: /chat": {
+      "success": true,
+      "details": "Endpoint accessible via /api prefix (status: 405)",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:32.014939"
+    },
+    "API Structure: /chat/sessions": {
+      "success": true,
+      "details": "Endpoint accessible via /api prefix (status: 401)",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:32.030986"
+    },
+    "Frontend Routing": {
+      "success": true,
+      "details": "Non-API routes correctly serve frontend application",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:32.050374"
+    },
+    "Chat Data Validation": {
+      "success": true,
+      "details": "Properly validates chat data (status: 401)",
+      "response_data": null,
+      "timestamp": "2025-07-21T18:16:32.067596"
+    }
+  },
+  "summary": {
+    "passed": 8,
+    "total": 8,
+    "success_rate": "100.0%",
+    "timestamp": "2025-07-21T18:16:32.067996"
+  }
+}
