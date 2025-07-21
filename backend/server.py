@@ -213,7 +213,7 @@ async def chat_with_ai(
             api_key=mistral_api_key,
             session_id=chat_request.session_id,
             system_message=system_message
-        ).with_model("mistral", "mistral-small-latest")
+        ).with_model("mistral", "mistral-small")
         
         # Send user message
         user_message = UserMessage(text=chat_request.message)
